@@ -1,47 +1,33 @@
-# FastAPI Backend
+# Backend Project
 
-## 카테고리
-BACKEND
+## 🚀 Quick Start
 
-## 설명
-FastAPI Backend 백엔드 프레임워크/도구를 사용한 프로젝트 템플릿
-
-## 번호
-448
-
-## 시작하기
-
-### 설치
 ```bash
-npm install
+# Install dependencies
+npm install  # or: pip install -r requirements.txt / flutter pub get
+
+# Run development server
+npm run dev  # or: python main.py / flutter run
 ```
 
-### 개발 서버 실행
+## 📦 What's Included
+
+- Production-ready configuration
+- Real dependencies
+- Working example code
+- Best practices setup
+
+## 🛠️ Commands
+
 ```bash
-npm run dev
+npm run dev      # Start development
+npm run build    # Build for production
+npm start        # Start production server
 ```
 
-### 프로덕션 빌드
-```bash
-npm run build
-```
+## 📖 Documentation
 
-## 기능
-- FastAPI Backend 기반 프로젝트
-- 모던 개발 환경 설정
-- 기본 템플릿 제공
+Check the official documentation for more details.
 
-## 기술 스택
-- FastAPI Backend
-- Node.js
-- npm/yarn
-
-## 문서
-- 공식 문서: [링크 추가 필요]
-- GitHub: [링크 추가 필요]
-
-## 라이선스
-MIT
-
-## 기여
-기여를 환영합니다!
+---
+**Ready to use!** ✨

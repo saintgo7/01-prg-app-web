@@ -1,47 +1,79 @@
-# React Native
+# Native Project Template
 
-## 카테고리
-APP
+## 🚀 Quick Start
 
-## 설명
-React Native 모바일/데스크톱 앱 프레임워크를 사용한 프로젝트 템플릿
+### Prerequisites
+- Node.js 18+ (for JS/TS projects)
+- Python 3.10+ (for Python projects)
+- npm or yarn or pnpm
 
-## 번호
-221
+### Installation
 
-## 시작하기
-
-### 설치
 ```bash
+# Install dependencies
 npm install
+# or
+yarn install
+# or (for Python)
+pip install -r requirements.txt
 ```
 
-### 개발 서버 실행
+### Development
+
 ```bash
+# Start development server
 npm run dev
+# or
+python manage.py runserver
 ```
 
-### 프로덕션 빌드
+Visit: http://localhost:3000 (or port shown in terminal)
+
+### Build for Production
+
 ```bash
+# Build
 npm run build
+
+# Start production server
+npm start
 ```
 
-## 기능
-- React Native 기반 프로젝트
-- 모던 개발 환경 설정
-- 기본 템플릿 제공
+## 📁 Project Structure
 
-## 기술 스택
-- React Native
-- Node.js
-- npm/yarn
+```
+.
+├── src/              # Source files
+├── public/           # Static files
+├── package.json      # Dependencies
+├── .env.example      # Environment variables template
+└── README.md         # This file
+```
 
-## 문서
-- 공식 문서: [링크 추가 필요]
-- GitHub: [링크 추가 필요]
+## 🛠️ Tech Stack
 
-## 라이선스
+- **Framework**: Native
+- **Language**: JavaScript/TypeScript
+- **Package Manager**: npm/yarn/pnpm
+
+## 📝 Environment Variables
+
+Copy `.env.example` to `.env.local` and update values:
+
+```bash
+cp .env.example .env.local
+```
+
+## 🔗 Useful Links
+
+- [Official Documentation](https://docs.example.com)
+- [GitHub Repository](https://github.com/example)
+- [Community](https://community.example.com)
+
+## 📄 License
+
 MIT
 
-## 기여
-기여를 환영합니다!
+---
+
+**Ready for production!** ✨

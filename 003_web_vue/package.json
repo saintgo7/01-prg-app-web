@@ -1,17 +1,17 @@
 {
-  "name": "vue",
-  "version": "1.0.0",
-  "description": "Vue 웹 프레임워크/라이브러리를 사용한 프로젝트 템플릿",
-  "main": "index.js",
+  "name": "vue-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "web",
-    "vue"
-  ],
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
 }
