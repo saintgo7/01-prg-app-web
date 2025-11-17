@@ -1,0 +1,17 @@
+{
+  "name": "heroicons",
+  "version": "1.0.0",
+  "description": "Heroicons 프론트엔드 라이브러리/도구를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "frontend",
+    "heroicons"
+  ],
+  "author": "",
+  "license": "MIT"
+}

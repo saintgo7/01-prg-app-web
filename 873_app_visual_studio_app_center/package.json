@@ -1,0 +1,17 @@
+{
+  "name": "visual-studio-app-center",
+  "version": "1.0.0",
+  "description": "Visual Studio App Center 모바일/데스크톱 앱 프레임워크를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "app",
+    "visual studio app center"
+  ],
+  "author": "",
+  "license": "MIT"
+}
