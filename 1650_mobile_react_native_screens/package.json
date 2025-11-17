@@ -1,0 +1,20 @@
+{
+  "name": "react-native-screens",
+  "version": "1.0.0",
+  "description": "React-Native-Screens starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "react-native-screens",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

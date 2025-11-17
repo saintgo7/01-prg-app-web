@@ -1,0 +1,20 @@
+{
+  "name": "meilisearch",
+  "version": "1.0.0",
+  "description": "Meilisearch starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "meilisearch",
+    "search"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

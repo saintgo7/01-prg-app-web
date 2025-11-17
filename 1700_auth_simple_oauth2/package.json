@@ -1,0 +1,20 @@
+{
+  "name": "simple-oauth2",
+  "version": "1.0.0",
+  "description": "Simple-Oauth2 starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "simple-oauth2",
+    "auth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

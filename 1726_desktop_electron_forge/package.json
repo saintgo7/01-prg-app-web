@@ -1,0 +1,20 @@
+{
+  "name": "electron-forge",
+  "version": "1.0.0",
+  "description": "Electron-Forge starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "electron-forge",
+    "desktop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

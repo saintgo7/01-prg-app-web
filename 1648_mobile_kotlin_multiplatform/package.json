@@ -1,0 +1,20 @@
+{
+  "name": "kotlin-multiplatform",
+  "version": "1.0.0",
+  "description": "Kotlin-Multiplatform starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "kotlin-multiplatform",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+vendor/
+.env
+.env.local
+composer.lock
+*.log
+cache/
+storage/
+public/uploads/
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "name": "dato-cms",
+  "version": "1.0.0",
+  "description": "Dato-Cms starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "dato-cms",
+    "cms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

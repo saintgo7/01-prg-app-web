@@ -1,0 +1,20 @@
+{
+  "name": "radix-ui",
+  "version": "1.0.0",
+  "description": "Radix-Ui starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "radix-ui",
+    "css_tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

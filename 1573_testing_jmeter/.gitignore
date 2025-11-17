@@ -1,0 +1,10 @@
+target/
+.gradle/
+build/
+*.class
+*.jar
+*.war
+.idea/
+.vscode/
+*.log
+.env

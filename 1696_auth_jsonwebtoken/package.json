@@ -1,0 +1,20 @@
+{
+  "name": "jsonwebtoken",
+  "version": "1.0.0",
+  "description": "Jsonwebtoken starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "jsonwebtoken",
+    "auth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
