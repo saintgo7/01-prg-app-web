@@ -1,0 +1,17 @@
+{
+  "name": "azure-service-bus",
+  "version": "1.0.0",
+  "description": "Azure Service Bus 클라우드 서비스를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "cloud",
+    "azure service bus"
+  ],
+  "author": "",
+  "license": "MIT"
+}

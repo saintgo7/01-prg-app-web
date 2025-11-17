@@ -1,0 +1,17 @@
+{
+  "name": "fail2ban",
+  "version": "1.0.0",
+  "description": "Fail2Ban 보안 도구를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "security",
+    "fail2ban"
+  ],
+  "author": "",
+  "license": "MIT"
+}

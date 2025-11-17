@@ -1,0 +1,17 @@
+{
+  "name": "singer",
+  "version": "1.0.0",
+  "description": "Singer 데이터 처리/분석 도구를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "data",
+    "singer"
+  ],
+  "author": "",
+  "license": "MIT"
+}

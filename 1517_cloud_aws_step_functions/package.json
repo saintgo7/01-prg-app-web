@@ -1,0 +1,17 @@
+{
+  "name": "aws-step-functions",
+  "version": "1.0.0",
+  "description": "AWS Step Functions 클라우드 서비스를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "cloud",
+    "aws step functions"
+  ],
+  "author": "",
+  "license": "MIT"
+}

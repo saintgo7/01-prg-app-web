@@ -1,0 +1,17 @@
+{
+  "name": "universal-links",
+  "version": "1.0.0",
+  "description": "Universal Links 모바일/데스크톱 앱 프레임워크를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "app",
+    "universal links"
+  ],
+  "author": "",
+  "license": "MIT"
+}
