@@ -1,0 +1,17 @@
+{
+  "name": "falcon",
+  "version": "1.0.0",
+  "description": "Falcon 웹 프레임워크/라이브러리를 사용한 프로젝트 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "web",
+    "falcon"
+  ],
+  "author": "",
+  "license": "MIT"
+}
