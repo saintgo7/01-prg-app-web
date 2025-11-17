@@ -1,17 +1,25 @@
 {
-  "name": "new-relic-agent",
+  "name": "new_relic_agent",
   "version": "1.0.0",
-  "description": "New Relic Agent DevOps 도구를 사용한 프로젝트 템플릿",
+  "description": "new_relic_agent 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "build": "echo 'Build step'",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [
     "devops",
-    "new relic agent"
+    "new_relic_agent"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  }
 }

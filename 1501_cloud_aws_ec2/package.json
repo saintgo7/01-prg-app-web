@@ -1,17 +1,25 @@
 {
-  "name": "aws-ec2",
+  "name": "aws_ec2",
   "version": "1.0.0",
-  "description": "AWS EC2 클라우드 서비스를 사용한 프로젝트 템플릿",
+  "description": "aws_ec2 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "build": "echo 'Build step'",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [
     "cloud",
-    "aws ec2"
+    "aws_ec2"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  }
 }

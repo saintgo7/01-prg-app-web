@@ -1,17 +1,25 @@
 {
-  "name": "android-keystore",
+  "name": "android_keystore",
   "version": "1.0.0",
-  "description": "Android Keystore 모바일/데스크톱 앱 프레임워크를 사용한 프로젝트 템플릿",
+  "description": "android_keystore 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "build": "echo 'Build step'",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [
     "app",
-    "android keystore"
+    "android_keystore"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  }
 }

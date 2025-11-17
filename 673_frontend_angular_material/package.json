@@ -1,17 +1,25 @@
 {
-  "name": "angular-material",
+  "name": "angular_material",
   "version": "1.0.0",
-  "description": "Angular Material 프론트엔드 라이브러리/도구를 사용한 프로젝트 템플릿",
+  "description": "angular_material 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "build": "echo 'Build step'",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [
     "frontend",
-    "angular material"
+    "angular_material"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  }
 }
