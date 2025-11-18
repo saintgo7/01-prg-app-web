@@ -1,0 +1,20 @@
+{
+  "name": "rudderstack",
+  "version": "1.0.0",
+  "description": "Rudderstack starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "rudderstack",
+    "analytics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

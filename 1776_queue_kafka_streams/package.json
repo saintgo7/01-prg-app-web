@@ -1,0 +1,20 @@
+{
+  "name": "kafka-streams",
+  "version": "1.0.0",
+  "description": "Kafka-Streams starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "kafka-streams",
+    "queue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

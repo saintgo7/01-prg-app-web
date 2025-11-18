@@ -1,0 +1,20 @@
+{
+  "name": "mixpanel",
+  "version": "1.0.0",
+  "description": "Mixpanel starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "mixpanel",
+    "analytics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

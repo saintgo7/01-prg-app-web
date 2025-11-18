@@ -1,0 +1,20 @@
+{
+  "name": "cloudinary-video",
+  "version": "1.0.0",
+  "description": "Cloudinary-Video starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "cloudinary-video",
+    "video"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

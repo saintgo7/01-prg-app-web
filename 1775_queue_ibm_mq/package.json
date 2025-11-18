@@ -1,0 +1,20 @@
+{
+  "name": "ibm-mq",
+  "version": "1.0.0",
+  "description": "Ibm-Mq starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "ibm-mq",
+    "queue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
