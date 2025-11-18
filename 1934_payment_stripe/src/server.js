@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require('express');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
