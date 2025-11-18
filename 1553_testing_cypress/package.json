@@ -4,10 +4,8 @@
   "description": "Cypress starter template",
   "main": "index.js",
   "scripts": {
-    "dev": "echo 'Development server'",
-    "build": "echo 'Build project'",
-    "start": "echo 'Start production server'",
-    "test": "echo 'Run tests'"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [
     "cypress",
@@ -16,5 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
 }

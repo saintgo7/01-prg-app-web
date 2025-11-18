@@ -1,0 +1,20 @@
+{
+  "name": "tslint",
+  "version": "1.0.0",
+  "description": "Tslint starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "tslint",
+    "lint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

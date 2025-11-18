@@ -1,0 +1,20 @@
+{
+  "name": "slate",
+  "version": "1.0.0",
+  "description": "Slate starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "slate",
+    "docs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

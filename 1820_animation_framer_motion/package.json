@@ -1,0 +1,20 @@
+{
+  "name": "framer-motion",
+  "version": "1.0.0",
+  "description": "Framer-Motion starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "framer-motion",
+    "animation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

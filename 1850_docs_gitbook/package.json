@@ -1,0 +1,20 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "Gitbook starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "gitbook",
+    "docs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

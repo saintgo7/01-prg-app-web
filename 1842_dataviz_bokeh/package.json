@@ -1,0 +1,20 @@
+{
+  "name": "bokeh",
+  "version": "1.0.0",
+  "description": "Bokeh starter template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Build project'",
+    "start": "echo 'Start production server'",
+    "test": "echo 'Run tests'"
+  },
+  "keywords": [
+    "bokeh",
+    "dataviz"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

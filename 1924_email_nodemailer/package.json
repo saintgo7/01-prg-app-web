@@ -4,10 +4,8 @@
   "description": "Nodemailer starter template",
   "main": "index.js",
   "scripts": {
-    "dev": "echo 'Development server'",
-    "build": "echo 'Build project'",
-    "start": "echo 'Start production server'",
-    "test": "echo 'Run tests'"
+    "start": "node src/sendEmail.js",
+    "test": "echo 'Run email test'"
   },
   "keywords": [
     "nodemailer",
@@ -15,6 +13,9 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
   "devDependencies": {}
 }
