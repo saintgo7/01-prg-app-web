@@ -4,11 +4,11 @@
   "description": "django 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "echo 'Build step'",
-    "test": "jest",
-    "lint": "eslint ."
+    "start": "python manage.py runserver",
+    "migrate": "python manage.py migrate",
+    "makemigrations": "python manage.py makemigrations",
+    "createsuperuser": "python manage.py createsuperuser",
+    "test": "python manage.py test"
   },
   "keywords": [
     "web",

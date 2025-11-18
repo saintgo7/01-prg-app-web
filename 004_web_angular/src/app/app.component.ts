@@ -1,22 +1,57 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+interface Todo {
+  id: number;
+  text: string;
+  completed: boolean;
+}
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div class="app">
-      <h1>Welcome to Angular!</h1>
-      <p>Edit src/app/app.component.ts to get started</p>
-    </div>
-  `,
-  styles: [`
-    .app {
-      text-align: center;
-      padding: 40px;
-      font-family: Arial, sans-serif;
-    }
-    h1 { color: #dd0031; }
-  `]
+  standalone: true,
+  imports: [CommonModule, FormsModule],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-app';
+  title = 'Angular App';
+  count = 0;
+  newTodo = '';
+  todos: Todo[] = [];
+
+  increment() {
+    this.count++;
+  }
+
+  decrement() {
+    this.count--;
+  }
+
+  reset() {
+    this.count = 0;
+  }
+
+  addTodo() {
+    if (this.newTodo.trim()) {
+      this.todos.push({
+        id: Date.now(),
+        text: this.newTodo,
+        completed: false
+      });
+      this.newTodo = '';
+    }
+  }
+
+  toggleTodo(id: number) {
+    const todo = this.todos.find(t => t.id === id);
+    if (todo) {
+      todo.completed = !todo.completed;
+    }
+  }
+
+  deleteTodo(id: number) {
+    this.todos = this.todos.filter(t => t.id !== id);
+  }
 }

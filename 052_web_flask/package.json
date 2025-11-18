@@ -4,11 +4,9 @@
   "description": "flask 프로젝트 템플릿",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "echo 'Build step'",
-    "test": "jest",
-    "lint": "eslint ."
+    "start": "python app.py",
+    "dev": "flask run --debug",
+    "test": "python -m pytest"
   },
   "keywords": [
     "web",

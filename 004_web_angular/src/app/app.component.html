@@ -1,0 +1,35 @@
+<div class="app">
+  <header class="app-header">
+    <h1>{{ title }}</h1>
+
+    <!-- Counter Section -->
+    <div class="counter-section">
+      <h2>Counter: {{ count }}</h2>
+      <button (click)="increment()">Increment</button>
+      <button (click)="decrement()">Decrement</button>
+      <button (click)="reset()">Reset</button>
+    </div>
+
+    <!-- Todo Section -->
+    <div class="todo-section">
+      <h2>Todo List</h2>
+      <div class="todo-input">
+        <input
+          [(ngModel)]="newTodo"
+          (keyup.enter)="addTodo()"
+          placeholder="Add a new todo..."
+        />
+        <button (click)="addTodo()">Add</button>
+      </div>
+      <ul class="todo-list">
+        <li
+          *ngFor="let todo of todos"
+          [class.completed]="todo.completed"
+        >
+          <span (click)="toggleTodo(todo.id)">{{ todo.text }}</span>
+          <button (click)="deleteTodo(todo.id)">Delete</button>
+        </li>
+      </ul>
+    </div>
+  </header>
+</div>
